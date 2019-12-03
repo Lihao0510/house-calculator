@@ -1,0 +1,40 @@
+@theme-color: #00B9B5;
+@text-dark: rgba(0, 0, 0, 80%);
+@text-grey: #c5c5c5;
+@text-hint: rgba(0, 0, 0, 32%);
+
+@base-font-size: 75px;
+
+.flexible(@flexDirection, @align: flex-start, @justify: flex-start) {
+	display: flex;
+	flex-direction: @flexDirection;
+	align-items: @align;
+	justify-content: @justify;
+}
+
+.single-line {
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+
+.font-semi(@fontSize, @color) {
+	font-family: PingFangSC-Semibold;
+	font-weight: 600;
+	font-size: @fontSize;
+	color: @color;
+}
+
+.font-medium(@fontSize, @color) {
+	font-family: PingFangSC-Medium;
+	font-weight: 500;
+	font-size: @fontSize;
+	color: @color;
+}
+
+.font-regular(@fontSize, @color) {
+	font-family: PingFangSC-Regular;
+	font-weight: 400;
+	font-size: @fontSize;
+	color: @color;
+}
