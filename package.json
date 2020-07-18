@@ -13,7 +13,7 @@
     "babel-polyfill": "^6.26.0",
     "core-js": "^2.6.5",
     "html2canvas": "^1.0.0-rc.5",
-    "lodash": "^4.17.11",
+    "lodash": "^4.17.19",
     "moment": "^2.24.0",
     "normalize.css": "^8.0.1",
     "numeral": "^2.0.6",
